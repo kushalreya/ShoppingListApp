@@ -102,11 +102,4 @@ kush.android.shoppinglistapp
 
 ---
 
-## 🧑‍💻 Author
-
-Kush  
-Android Developer | Jetpack Compose
-
----
-
 ⭐ If you like this project, feel free to star the repository!

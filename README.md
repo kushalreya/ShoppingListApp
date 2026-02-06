@@ -7,10 +7,7 @@ The app allows users to add, edit, and delete shopping items with a clean UI and
 
 ## 🎥 App Demo
 
-▶️ Click below to watch the app demo video:
 
-- [Watch Demo Video 1](vid1.mp4)
-- [Watch Demo Video 2](vid2.mp4)
 
 ---
 

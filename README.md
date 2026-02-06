@@ -5,7 +5,7 @@ The app allows users to add, edit, and delete shopping items with a clean UI and
 
 ---
 
-## 🎥 App Demo
+## 📸 App Demo
 
 
 
@@ -104,7 +104,7 @@ kush.android.shoppinglistapp
 
 ## 🧑‍💻 Author
 
-Your Name  
+Kush  
 Android Developer | Jetpack Compose
 
 ---

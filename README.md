@@ -52,9 +52,9 @@ This app helps users create and manage a shopping list while being aware of thei
 ## 🏗 Architecture
 
 This project follows a MVVM architecture with clear separation of concerns.
-
 ### 🔄 Data Flow
 
+```mermaid
 graph TD
     UI[Compose UI] --> VM[ViewModel]
     VM --> Data[Data Layer]
@@ -64,7 +64,8 @@ graph TD
     Location --> Data
     Data --> VM
     VM --> UI
-    
+```
+
 ### 📌 Explanation
 - UI (Compose) → Displays state
 - ViewModel → Holds state & business logic
@@ -90,7 +91,6 @@ graph TD
 ---
 
 ## 📸  Demo Video
-
 
 https://github.com/user-attachments/assets/43aedd34-f759-47d3-b3aa-aa6c1ca1d1fa
 
@@ -119,16 +119,18 @@ https://github.com/user-attachments/assets/5e60a7c1-b38a-43fa-aa6e-6a8d0c668dc8
 ### 🔄 How it works
 @GET("maps/api/geocode/json")
 suspend fun getAddressFromCoordinates(...)
+
 ### ⚠️ Error Handling
 - Try-catch in ViewModel
 - Safe null handling in UI
 - Optional fallback using Android Geocoder
 
--—
+---
 
 ## 📂 Project Structure
 
-android.shoppinglistapp/
+```bash
+kush.android.shoppinglistapp/
 │
 ├── MainActivity.kt
 ├── Navigation.kt
@@ -151,6 +153,7 @@ android.shoppinglistapp/
 │
 ├── model/
 │   └── ShoppingListClass.kt
+```
 ---
 
 ## 🎯 Use Cases
@@ -201,4 +204,4 @@ Feel free to connect with me on:
 - GitHub
 - X (Twitter)
 
--—-
+---
